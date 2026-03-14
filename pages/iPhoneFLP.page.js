@@ -21,7 +21,7 @@ constructor(page, iPhoneMod){
 async goToiPhonePDP(){
 
 await this.buyButton.click();
-await expect(this.iPhonepdp).toBeVisible();
+
 
 
 }

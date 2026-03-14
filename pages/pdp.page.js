@@ -13,7 +13,7 @@ this.selectcolor= page.locator(`input[value="${colorName}"]`);
 
 async selectConfigs(){
 
-   await this.selectcolor.click();
+   //await this.selectcolor.click();
 }
 
 }

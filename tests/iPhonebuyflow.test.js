@@ -34,6 +34,7 @@ test('verify iphone flow', async()=>{
 
     await products.iPhoneModel();
     await flp.goToiPhonePDP();
+    await expect(this.iPhonepdp).toBeVisible();
     await pdp.selectConfigs();
 
 })
